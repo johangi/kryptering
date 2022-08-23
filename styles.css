@@ -1,0 +1,22 @@
+body {
+    background-image: url(./img/wood.png);
+}
+
+.bodywrapper {
+    text-align: center;
+    background: #2d2d2d;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1,h2,p {
+    color: white;
+}
+
+#tit {
+    font-size: 3rem;
+}
+
+#output {
+    font-size: 5rem;
+}
