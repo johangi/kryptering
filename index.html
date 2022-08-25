@@ -4,27 +4,36 @@
     <meta charset="UTF-8">
     <title>Kryptering Master</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="krypter.js" defer></script>
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.png">
+    <script src="krypter.js" defer></script>
 </head>
 <body>
-    <section id="background">
-        <img src="./img/bakgrunn.png" alt="bakgrunn" id="backgroundIMG">
-    </section>
-    <section class="headerSection">
-    <h2 id="mainHeader">Kryptering Master</h2>
-    </section>
-    <section class="outputSection">
-    <h4 id="textOutput">>>Output<<</h4>
+    <div class="bodywrapper">
+    <section class="tit-section">
+
+    <h1 id="tit">Kryptering Master</h2>
+    <h2 id="output">placeholder</h4>
+
     </section>
 
-    <section class="inputs">
-        <label for="melding">Melding</label>
-        <input type="text" id="meldingInput" name="melding">
-        <label for="key">Krypterings Key</label>
-        <input type="number" id="krypteringsKey" name="key">
-        <button id="krypterKnapp">Krypter</button>
-        <button id="dekrypterKnapp">Dekrypter</button>
+    <section class="input">
+
+        <p>melding</p>
+        <input type="text" id="melding">
+
+        <p>schiffer</p>
+        <input type="number" id="schiffer">
+
     </section>
+
+    <section class="mode">
+
+        <p id="krypt">krypter</p>
+
+        <p id="dekrypt">dekrypter</p>
+
+    </section>
+
+    </div>
 </body>
 </html>
